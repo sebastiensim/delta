@@ -65,10 +65,12 @@
     </header>
     <!--//header-->
     <!-- ******PROMO****** -->
-    <section id="promo" class="promo section offset-header has-pattern">
+    <section id="promo" class="promo section offset-header">
+      <div class="overlay"></div>
       <div class="container">
+		<a id="bgndVideo" class="player" data-property="{videoURL:'http://www.youtube.com/watch?v=APsDev5DbnE',containment:'#promo',autoPlay:true, mute:true, startAt:0, showYTLogo:false, showControls:false, opacity:1}">My video</a>
         <div class="row">
-          <div class="overview col-md-8 col-sm-12 col-xs-12">
+          <div class="overview col-md-12 col-sm-12 col-xs-12">
             <h2 class="title">Delta helps you promote your mobile app</h2>
             <ul class="summary">
               <li>Showcase and promote your mobile app to the web</li>
@@ -76,44 +78,8 @@
               <li>Provide answers to common questions</li>
               <li>Tell the world about the story behind the app</li>
             </ul>
-            <div class="download-area">
-              <ul class="btn-group list-inline">
-                <li class="ios-btn"><a href="#">Download from the App Store</a></li>
-                <li class="android-btn"><a href="#">Get it from Google Play</a></li>
-              </ul>
-              <div class="note text-center">
-                <p>30% OFF - Now only $0.99
-                  <br>Offer ends 31st March</p>
-                <span class="left-arrow"></span>
-                <span class="right-arrow"></span>
-              </div>
-              <!--//note-->
-            </div>
           </div>
           <!--//overview-->
-          <!--// iPhone starts -->
-          <div class="phone iphone iphone-black col-md-4 col-sm-12 col-xs-12">
-            <div class="iphone-holder phone-holder">
-              <div class="iphone-holder-inner">
-                <div class="slider flexslider" flex-slider>
-                  <ul class="slides">
-                    <li>
-                      <img src="images/iphone/iphone-slide-1.43348a6e.png" alt=""> </li>
-                    <li>
-                      <img src="images/iphone/iphone-slide-2.3f3bf77c.png" alt=""> </li>
-                    <li>
-                      <img src="images/iphone/iphone-slide-3.0b0b2f58.png" alt=""> </li>
-                  </ul>
-                  <!--//slides-->
-                </div>
-                <!--//flexslider-->
-              </div>
-              <!--//iphone-holder-inner-->
-            </div>
-            <!--//iphone-holder-->
-          </div>
-          <!--//iphone-->
-          <!--// iPhone ends -->
         </div>
         <!--//row-->
       </div>
@@ -844,3 +810,4 @@
     <![endif]-->
     <script src="scripts/vendor.75200232.js"></script>
     <script src="scripts/scripts.59fd139f.js"></script>
+    <script src="scripts/jquery.mb.YTPlayer.js"></script>
