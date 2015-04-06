@@ -654,13 +654,11 @@
               <!--//form-group-->
               <p ng-show="form.email.$error.required && submitted">Please enter your E-Mail address</p>
               <p class="error" ng-show="form.email.$error.email">Not valid email!</p>
-              <!--
               <div class="form-group message">
                 <label class="sr-only" for="message">Message</label>
                 <textarea id="message" ng-model="feedback.feedback" name="comments" class="form-control" rows="6" placeholder="Message:" required></textarea>
               </div>&lt;!&ndash;//form-group&ndash;&gt;
               <p ng-show="form.comments.$error.required && submitted">Please enter your feedback</p>
--->
               <p ng-if="showSuccess" class="alert alert-success">Successfully Submitted</p>
               <button type="submit" class="btn btn-lg btn-theme">Send Message</button>
             </form>
